@@ -9,9 +9,9 @@ public class Main {
         List<Integer> currRow = null;
         List<Integer> prevRow = null;
         
-        for (int i=0; i<rows; ++i) {
+        for (int i=0; i<rows; i++) {
             currRow = new ArrayList<Integer>();
-            for (int j=0; j<=i; ++j) {
+            for (int j=0; j<=i; j++) {
                 if (j==0 || j==i) {
                     currRow.add(1);
                 } else {
