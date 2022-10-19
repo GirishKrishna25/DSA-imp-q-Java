@@ -10,6 +10,7 @@ public class Main {
         List<Integer> prevRow = null;
         
         for (int i=0; i<rows; i++) {
+            // for every loop we are creating a new one. adding values to it and finally adding it to the matrix.
             currRow = new ArrayList<Integer>();
             for (int j=0; j<=i; j++) {
                 if (j==0 || j==i) {
